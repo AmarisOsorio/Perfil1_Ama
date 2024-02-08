@@ -1,3 +1,12 @@
 *{
     background-color: antiquewhite;
 } 
+
+nav{
+    float: left;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
