@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -139,6 +141,43 @@ body {
         opacity: 1;
         transition-delay: calc(.15s * var(--i));
     }
+}
+
+/*titulo*/
+
+.container{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1::after , h1::before{
+    content: '';
+    position: absolute;
+    width: 120px; /*se define anchura de linea*/
+    height: 3px; /*se define el grosor de linea*/
+    background-color: currentColor;
+    top: 1rem;
+}
+
+h1::before{
+    left: -140px;
+}
+
+h1::after {
+    right: -140px;
 }
 
 /*Tarjetas*/

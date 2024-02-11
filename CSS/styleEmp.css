@@ -173,14 +173,6 @@ h1::after {
 
 /* Inicio de Tarjetas*/
 
-#tittle{
-    margin: 100px;
-    margin-top: -250px;
-    margin-bottom: 5px;
-    padding: 0;
-    color: #fff;
-}
-
 .container{
     position: relative;
     width: 1100px;
