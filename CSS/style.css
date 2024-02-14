@@ -214,47 +214,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction:column;
-}
-
-.Logo2{
-    height: 80px;
-    margin-bottom: 1rem;
-}
-
-.redes-sociales,.pie-pag{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 1rem;
-}
-
-.social-icon{
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    border: 1px solid #000;
-    background-image: url("../IMG/usuario.png");
-    background-position: center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    margin: 1rem;
-}
-
-.social-icon:hover{
-    background-color: #C8AE7D;
-    filter: invert(1);
-}
-
-.social-icon:nth-of-type(2){
-    background-image: url("../IMG/instagram.png");
-}
-
-.social-icon:nth-of-type(3){
-    background-image: url("../IMG/messenger.png");
-}
-.social-icon:nth-of-type(4){
-    background-image: url("../IMG/WhatsApp.png");
+    text-align: center;
 }
 
 .pie-pag{
