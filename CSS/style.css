@@ -5,6 +5,13 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} 
+
 /*Inicio header*/
 
 .encabezado {
@@ -135,7 +142,6 @@
 
 /*Inicio slider*/
 
-
 .slider-frame {
     width: auto;
     height: auto;
@@ -193,4 +199,82 @@
         margin-left: -300%;
     }
 
+}
+
+/*Inicio Footer*/
+
+footer{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #C8AE7D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.Logo2{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.redes-sociales,.pie-pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    background-image: url("../IMG/usuario.png");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+    background-color: #C8AE7D;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url("../IMG/instagram.png");
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url("../IMG/messenger.png");
+}
+.social-icon:nth-of-type(4){
+    background-image: url("../IMG/WhatsApp.png");
+}
+
+.pie-pag{
+    list-style-type: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
+
+.copyright{
+    color: brown;
+    opacity: 0.3;
+    text-align: center;
 }
